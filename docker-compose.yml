@@ -1,0 +1,11 @@
+name: AppCars
+
+services:
+  mynodeapp:
+    container_name: mynodeapp
+    hostname: mynodeapp
+    ports:
+      - 9000:3000
+    build: 
+      context: ./AppCars
+      dockerfile: ./Dockerfile
