@@ -13,4 +13,10 @@
 
 ---
 
+# Si le container existe déjà :
+1. Dans un terminal éxécuter la commande : `docker start mynodeapp` pour démarrer le container si stoppé
+2. pour l'arrêter : `docker stop mynodeapp`
+
+---
+
 # L'application sera disponible sur [http://localhost:9000](http://localhost:9000)
