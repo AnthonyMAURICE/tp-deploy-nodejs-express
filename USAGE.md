@@ -1,9 +1,9 @@
 # Afin de lancer l'application, suivre les étapes suivantes :
 
 # Via le Dockerfile uniquement
-1.  Lancer un terminal et se placer dans le répertoire `AppCars`
+1.  Lancer un terminal et se placer dans le répertoire `AppCars`, où se situe le Dockerfile
 2.  Exécuter la commande : `docker build -t nodeapp` qui se basera sur le Dockerfile
-3.  Exécuter la commande : `docker run --name mynodeapp -d -p 9000:3000 nodeapp` pour créer le container qui prendra le nom "mynodeapp"
+3.  Exécuter la commande : `docker run --name mynodeapp -d -p 9000:3000 nodeapp` pour créer le container qui prendra le nom "mynodeapp" à partir de l'image nodeapp créée précédement
 
 ---
 
